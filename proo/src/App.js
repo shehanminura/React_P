@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      SMH React
+      <Main name='Minura' city='Kandy' position='Java Developer'>
+      
+      </Main>
+      <Main name='Hansana' city='Galle' position='Python Developer'/>
+      <Main name='Kaushi' city='Colombo' position='APP Developer'/>
     </div>
   );
 }
